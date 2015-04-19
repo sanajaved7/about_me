@@ -1,2 +1,2 @@
 # About Me
-About me page using HTML, CSS, and Javascript that is currently deployed at [sanajaved.bitballoon.com](http://sanajaved.bitballoon.com/).
+An about me page that was built using HTML, CSS, and Javascript/jQuery that is currently deployed at [sanajaved.bitballoon.com](http://sanajaved.bitballoon.com/).
