@@ -23,7 +23,8 @@ body {
   padding: 20px;
   margin: 0 auto;
   color:white;
-  background: rgba(0,0,0,0.7);
+/*  background: rgba(215,117,44,0.8);
+*/  background: rgba(0,0,0,0.7);
 }
 input {
   border: 0;
@@ -36,6 +37,10 @@ input[type="submit"] {
   background: #cc6600;
   color: white;
   border-radius: 20px;
+
+}
+input[type="submit"]:hover{
+  background-color: #999900;
 }
 
 input[type="email"] {
@@ -58,6 +63,15 @@ li {
 }
 a {
   color: white;
+}
+a:hover {
+    color: #999900;
+}
+article {
+  max-width: 500px;
+  padding: 20px;
+  margin: 0 auto;
+  color:#cc6600;
 }
 @media (max-width: 500px) {
   h1 {
