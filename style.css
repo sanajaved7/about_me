@@ -7,15 +7,16 @@ body {
   font-family: georgia;
 }
 .first {
-  max-width: 500px;
-  padding: 20px;
-  margin: 0 auto;
+  margin-left: 200px;
+  margin-right: 0px;
+  margin-top: -5px;
+  padding: 10px;
   font-size: 22px;
   background-color:gray;
   opacity: 0.9;
   border-color: #cc6600;
   border-style: solid;
-  border-width: 20px;
+  border-width: 10px;
   border-radius: 20px;
 }
 .second{
@@ -43,7 +44,7 @@ input[type="submit"]:hover{
   background-color: #999900;
 }
 
-input[type="email"] {
+input[name="email"] {
   background: #999900;
   color: white;
   font-family: georgia
@@ -52,6 +53,7 @@ img
   {
    border-color: #999900;
    border-radius: 20px;
+   float: left;
   }
 ul {
   padding: 10px;
@@ -72,6 +74,25 @@ article {
   padding: 20px;
   margin: 0 auto;
   color:#cc6600;
+}
+#panel{
+    padding: 20px;
+    display: none;
+}
+#panel2 {
+    padding: 20px;
+    display: none;
+}
+#panel4 {
+    padding: 20px;
+    display: none;
+}
+#github {
+    padding: 20px;
+    display: none;
+    background-color: rgba(0,0,0,0.7);
+    max-width: 500px;
+    margin: 0 auto;
 }
 @media (max-width: 500px) {
   h1 {
