@@ -1,0 +1,66 @@
+body {
+  text-align: center;
+  background: url("http://i.imgur.com/UpFLrko.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-family: georgia;
+}
+.first {
+  max-width: 500px;
+  padding: 20px;
+  margin: 0 auto;
+  font-size: 22px;
+  background-color:gray;
+  opacity: 0.9;
+  border-color: #cc6600;
+  border-style: solid;
+  border-width: 20px;
+  border-radius: 20px;
+}
+.second{
+  max-width: 500px;
+  padding: 20px;
+  margin: 0 auto;
+  color:white;
+  background: rgba(0,0,0,0.7);
+}
+input {
+  border: 0;
+  padding: 10px;
+  font-size: 18px;
+  background: orange;
+  color:
+}
+input[type="submit"] {
+  background: #cc6600;
+  color: white;
+  border-radius: 20px;
+}
+
+input[type="email"] {
+  background: #999900;
+  color: white;
+  font-family: georgia
+}
+img
+  {
+   border-color: #999900;
+   border-radius: 20px;
+  }
+ul {
+  padding: 10px;
+  background: rgba(0,0,0,0.7);
+}
+li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+}
+a {
+  color: white;
+}
+@media (max-width: 500px) {
+  h1 {
+    font-size: 36px;
+    padding: 5px;
+  }
